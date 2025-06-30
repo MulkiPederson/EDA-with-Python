@@ -9,14 +9,14 @@ Penyakit liver adalah masalah kesehatan serius dengan angka kematian tinggi. Dat
 
 ## Libraries
 - `Pandas` untuk membaca dan memanipulasi data tabular.
-- `matplotlib.pyplot` untuk menampilkan visualisasi distirbusi data dengan histogram.
+- `matplotlib.pyplot` dan `seaborn` untuk menampilkan visualisasi distirbusi data dengan histogram.
 
 ## Insight
 - Dataset memiliki data kosong (missing value) yang dapat ditangani, diisi dengan nilai rata-rata karena merupakan kolom numerik.
 - Distribusi data tidak sepenuhnya normal (banyak yang skewed).
+- Menampilkan visualisasi data dengan histogram dan boxplot
 - Kolom target `Dataset` menunjukkan ketidakseimbangan data.
 - Data yang duplikat dihapus, data menjadi bersih dan siapkan di analisis lebih lanjut
-- Perlu preprocessing lebih lanjut sebelum modeling
 
 ## Advice
-Lakukan transformasi log/sqrt pada fitur skewed
+Perlu preprocessing lebih lanjut sebelum modeling seperti melakukan transformasi log/sqrt pada fitur skewed
